@@ -1,0 +1,53 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "sood home menu",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Yes"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no"
+          ]
+        },
+        {
+          "name": "home_menu",
+          "slots": [],
+          "samples": [
+            "what\u0027s for dinner",
+            "what\u0027s for lunch",
+            "What\u0027s for tonight",
+            "what\u0027s on the menu",
+            "What is for dinner",
+            "what is for lunch"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "21"
+}

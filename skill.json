@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Get the sood family menu",
+          "examplePhrases": [
+            "Alexa open sood homemenu",
+            "alexa ask sood homemenu what is for dinner",
+            "alexa ask sood homemenu what is for lunch"
+          ],
+          "keywords": [
+            "Food",
+            "menu"
+          ],
+          "name": "home menu",
+          "description": "an amazing way to stop constanlly asking sunny with the same question, \"What do you want to eat tomorrow\"?",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "ask alexa to open home menu",
+      "category": "COOKING_AND_RECIPE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:934254720861:function:90becdbf-1c3f-4346-91d7-95c2ff210677:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:934254720861:function:90becdbf-1c3f-4346-91d7-95c2ff210677:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:934254720861:function:90becdbf-1c3f-4346-91d7-95c2ff210677:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:934254720861:function:90becdbf-1c3f-4346-91d7-95c2ff210677:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
