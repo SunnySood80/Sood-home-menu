@@ -14,5 +14,5 @@ Other phrases that will work:
 "Alexa, open sood home menu and ask What's for tonight"
 "Alexa, open sood home menu and ask what's on the menu"
 
-Add your own items/options/phrases!
+Add your own items/options/phrases through the index.js file!
 
